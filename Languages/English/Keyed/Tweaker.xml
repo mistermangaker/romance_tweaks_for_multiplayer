@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<RomanceTweaker>Romance Tweaker</RomanceTweaker>
+<!-- mutal rejections-->
+<RomanceTweaker.romanceAttemptsAlwaysSucceedIfPreviousRomanceAttemptsExist>No Mutual Rejections</RomanceTweaker.romanceAttemptsAlwaysSucceedIfPreviousRomanceAttemptsExist>
+<RomanceTweaker.romanceAttemptsAlwaysSucceedIfPreviousRomanceAttemptsExist.description>If set to true then a recipient colonist will always accept a romance attempt from the initiator colonist if the recipient had previously failed to romance the initiator in the past. \n\nbasically there will be no more double rejections</RomanceTweaker.romanceAttemptsAlwaysSucceedIfPreviousRomanceAttemptsExist.description>
+
+<!--success chance modifier-->
+<RomanceTweaker.romanceSuccessChanceFactorGeneral>General Romance Success Chance Factor</RomanceTweaker.romanceSuccessChanceFactorGeneral>
+<RomanceTweaker.romanceSuccessChanceFactorGeneral.description>A over all modifier on how often any romance attempt will succeed. stacks with other modifiers</RomanceTweaker.romanceSuccessChanceFactorGeneral.description>
+
+<RomanceTweaker.romanceSuccessChanceFactorSingle>Romance Success Chance Factor For Singles</RomanceTweaker.romanceSuccessChanceFactorSingle>
+<RomanceTweaker.romanceSuccessChanceFactorSingle.description>A over all modifier on how often a romance attempt will succeed if both colonists are single</RomanceTweaker.romanceSuccessChanceFactorSingle.description>
+
+<RomanceTweaker.romanceSuccessChanceFactorCheating>Cheating Romance Success Chance Factor</RomanceTweaker.romanceSuccessChanceFactorCheating>
+<RomanceTweaker.romanceSuccessChanceFactorCheating.description>A over all modifier on how often a romance attempt will succeed if one of the pawns are cheating on another</RomanceTweaker.romanceSuccessChanceFactorCheating.description>
+
+<!--guarrenteed success-->
+<RomanceTweaker.alwaySucceedRomanceThreshold>Guaranteed Successful Romance Attempt Opinion Threshold</RomanceTweaker.alwaySucceedRomanceThreshold>
+<RomanceTweaker.alwaySucceedRomanceThreshold.description>If two pawns opinion is over this threshold then a romance attempt will always succeed between them. Modified by the below options.</RomanceTweaker.alwaySucceedRomanceThreshold.description>
+<RomanceTweaker.alwaySucceedRomanceThresholdMustBeMutual>Opinions Must Be Mutual</RomanceTweaker.alwaySucceedRomanceThresholdMustBeMutual>
+<RomanceTweaker.alwaySucceedRomanceThresholdMustBeMutual.description>Whether or not both pawns need to have an opinion of eachother over the threshold or if only the recipient does</RomanceTweaker.alwaySucceedRomanceThresholdMustBeMutual.description>
+<RomanceTweaker.alwaySucceedRomanceThresholdCantBeCheating>Can't Be Cheating</RomanceTweaker.alwaySucceedRomanceThresholdCantBeCheating>
+<RomanceTweaker.alwaySucceedRomanceThresholdCantBeCheating.description>Prevents the succees if the recipient is already taken</RomanceTweaker.alwaySucceedRomanceThresholdCantBeCheating.description>
+
+<!--rommance attempt modiers-->
+<RomanceTweaker.romanceAttemptFactorGeneral>General Romance Attempt Chance Factor</RomanceTweaker.romanceAttemptFactorGeneral>
+<RomanceTweaker.romanceAttemptFactorGeneral.description>A over all modifier on how often romance will be attempted. stacks with other modifiers</RomanceTweaker.romanceAttemptFactorGeneral.description>
+
+<RomanceTweaker.romanceAttemptFactorSingle>Romance Attempt Chance Factor For Singles</RomanceTweaker.romanceAttemptFactorSingle>
+<RomanceTweaker.romanceAttemptFactorSingle.description>A over all modifier on how often any single pawn will attempt any romance.</RomanceTweaker.romanceAttemptFactorSingle.description>
+
+<RomanceTweaker.romanceAttemptFactorCheating>Cheating Romance Attempt Chance Factor</RomanceTweaker.romanceAttemptFactorCheating>
+<RomanceTweaker.romanceAttemptFactorCheating.description>A over all modifier on how often romance will be attempted if its considered cheating.</RomanceTweaker.romanceAttemptFactorCheating.description>
+
+<!--guarrenteed attempt-->
+<RomanceTweaker.alwayAttemptRomanceThreshold>Guaranteed Romance Attempt Opinion Threshold</RomanceTweaker.alwayAttemptRomanceThreshold>
+<RomanceTweaker.alwayAttemptRomanceThreshold.description>If two pawns opinion is over this threshold then a romance attempt will happen the next time it is possible to occurr. Modified by the below options.</RomanceTweaker.alwayAttemptRomanceThreshold.description>
+<RomanceTweaker.alwaysAttemptRomanceThresholdMustBeMutual>Opinions Must Be Mutual</RomanceTweaker.alwaysAttemptRomanceThresholdMustBeMutual>
+<RomanceTweaker.alwaysAttemptRomanceThresholdMustBeMutual.description>Whether or not both pawns need to have an opinion of eachother over the threshold or if only the recipient does</RomanceTweaker.alwaysAttemptRomanceThresholdMustBeMutual.description>
+<RomanceTweaker.alwayAttemptRomanceThresholdCantBeCheating>Can't Be Cheating</RomanceTweaker.alwayAttemptRomanceThresholdCantBeCheating>
+<RomanceTweaker.alwayAttemptRomanceThresholdCantBeCheating.description>Prevents the attempt if the recipient is already taken</RomanceTweaker.alwayAttemptRomanceThresholdCantBeCheating.description>
+
+<!--minimum opinion-->
+<RomanceTweaker.minLevelToStartRomanceAttempt>Minimum Opinion Needed To Start Romance Attempt</RomanceTweaker.minLevelToStartRomanceAttempt>
+<RomanceTweaker.minLevelToStartRomanceAttempt.description>No pawn will attempt a romance attempt if the recipient's opinion of them is below this level. Prevents clueless pawns from attempting to romance pawns they have no shot with. Changing this option doesn't change romance success outcomes in anyway.</RomanceTweaker.minLevelToStartRomanceAttempt.description>
+
+</LanguageData>

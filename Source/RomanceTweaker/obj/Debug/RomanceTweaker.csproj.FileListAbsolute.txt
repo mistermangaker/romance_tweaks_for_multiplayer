@@ -1,0 +1,5 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\romance_tweaks_for_multiplayer\Assemblies\RomanceTweaker.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\romance_tweaks_for_multiplayer\Source\RomanceTweaker\obj\Debug\RomanceTweaker.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\romance_tweaks_for_multiplayer\Source\RomanceTweaker\obj\Debug\RomanceTweaker.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\romance_tweaks_for_multiplayer\Source\RomanceTweaker\obj\Debug\RomanceT.10F40369.Up2Date
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\romance_tweaks_for_multiplayer\Source\RomanceTweaker\obj\Debug\RomanceTweaker.dll

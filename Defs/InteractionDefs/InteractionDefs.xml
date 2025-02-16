@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+     <InteractionDef>
+    <defName>MMM_RomanceAttempt</defName>
+    <label>flirting attempt</label>
+    <workerClass>RomanceTweaker.InteractionWorker_FlirtyWords</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef] flirted with [RECIPIENT_nameDef].</li>
+
+      </rulesStrings>
+    </logRulesInitiator>
+  </InteractionDef>
+
+  <RulePackDef>
+    <defName>MMM_FlirtyWords_Lovers</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent->[RECIPIENT_nameDef] giggled at [RECIPIENT_possessive] beloved flirting.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+  <RulePackDef>
+    <defName>MMM_FlirtyWords_AttemptSucceeded</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent->[RECIPIENT_nameDef] giggled at [INITIATOR_nameDef].</li>
+        <li>sent->[RECIPIENT_nameDef] thought it was sweet.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+    <RulePackDef>
+    <defName>MMM_FlirtyWords_AttemptSucceeded_NowLovers</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent->[RECIPIENT_nameDef] was attracted and is now [INITIATOR_nameDef]'s lover.</li>
+        <li>sent->[RECIPIENT_nameDef] responded well and is now [INITIATOR_nameDef]'s lover.</li>
+        <li>sent->[RECIPIENT_nameDef] became aroused and agreed to become [INITIATOR_nameDef]'s lover.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>MMM_FlirtyWords_AttemptFailed</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent->[RECIPIENT_nameDef] rejected the advance.</li>
+        <li>sent->[RECIPIENT_nameDef] ignored the advance.</li>
+        <li>sent->[RECIPIENT_nameDef] turned [RECIPIENT_possessive] back.</li>
+        <li>sent->[RECIPIENT_nameDef] turned away.</li>
+        <li>sent->[RECIPIENT_nameDef] gave a minimal response.</li>
+        <li>sent->[RECIPIENT_nameDef] did not respond.</li>
+        <li>sent->[RECIPIENT_nameDef] turned [INITIATOR_objective] down.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+
+  <ThoughtDef>
+    <defName>MMM_FlirtingAttempt</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <durationDays>10</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>5</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>flirted with</label>
+        <baseOpinionOffset>7</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>MMM_FlirtingAttemptMood</thoughtToMake>
+  </ThoughtDef>
+
+    <ThoughtDef>
+    <defName>MMM_FlirtingAttemptMood</defName>
+    <durationDays>3.0</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <nullifyingHediffs>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>flirting</label>
+        <description>placeholder</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+
+
+  <ThoughtDef>
+    <defName>MMM_FlirtingAttemptOnMe</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <durationDays>10</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>5</stackLimitForSameOtherPawn>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>flirted with</label>
+        <baseOpinionOffset>5</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>MMM_FlirtingAttemptMood</thoughtToMake>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MMM_FlirtyWords_Mood</defName>
+    <durationDays>3.0</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <developmentalStageFilter>Adult</developmentalStageFilter>
+    <nullifyingHediffs>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+    </nullifyingHediffs>
+    <stages>
+      <li>
+        <label>flirting from {0}</label>
+        <description>they are so cute i love them</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+
+
+
+
+
+
+</Defs>
