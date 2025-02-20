@@ -3,27 +3,27 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|solutionrelative:harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\interactionworker_flirtywords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|solutionrelative:interactionworker_flirtywords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\modsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|solutionrelative:modsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\romance_utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|solutionrelative:romance_utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\romance_tweaks_for_multiplayer\\source\\romancetweaker\\dolovin_giver_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\dolovin_giver_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|solutionrelative:dolovin_giver_driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Fallen_Angel_Xenotype_V2\\Source\\FallenAngel\\Affection\\JobDriver_GetAffection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\interactionworker_flirtywords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|solutionrelative:interactionworker_flirtywords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\romance_utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|solutionrelative:romance_utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\romance_tweaks_for_multiplayer\\source\\romancetweaker\\harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|solutionrelative:harmonypatches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\modsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2CD65F6-9A3A-49C2-959F-2908B28A0F0E}|RomanceTweaker.csproj|solutionrelative:modsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Fallen_Angel_Xenotype_V2\\Source\\FallenAngel\\HramonyPatches\\Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -42,16 +42,29 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "DockedWidth": 2044,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T21:20:06.777Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "JobDriver_GetAffection.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Fallen_Angel_Xenotype_V2\\Source\\FallenAngel\\Affection\\JobDriver_GetAffection.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Fallen_Angel_Xenotype_V2\\Source\\FallenAngel\\Affection\\JobDriver_GetAffection.cs",
@@ -59,36 +72,38 @@
               "RelativeToolTip": "..\\..\\..\\Fallen_Angel_Xenotype_V2\\Source\\FallenAngel\\Affection\\JobDriver_GetAffection.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAAADgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T22:46:34.456Z"
+              "WhenOpened": "2025-02-15T22:46:34.456Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Romance_Utilities.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\Romance_Utilities.cs",
               "RelativeDocumentMoniker": "Romance_Utilities.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\Romance_Utilities.cs",
               "RelativeToolTip": "Romance_Utilities.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAyAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwB8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T17:15:13.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "InteractionWorker_FlirtyWords.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\InteractionWorker_FlirtyWords.cs",
               "RelativeDocumentMoniker": "InteractionWorker_FlirtyWords.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\InteractionWorker_FlirtyWords.cs",
               "RelativeToolTip": "InteractionWorker_FlirtyWords.cs",
-              "ViewState": "AQIAAAABAAAAAAAAAAAmwKIAAAA4AAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAASwDsAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T22:41:42.391Z"
+              "WhenOpened": "2025-02-14T22:41:42.391Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "DoLovin_Giver_Driver.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\DoLovin_Giver_Driver.cs",
               "RelativeDocumentMoniker": "DoLovin_Giver_Driver.cs",
@@ -125,41 +140,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ModSettings.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\ModSettings.cs",
               "RelativeDocumentMoniker": "ModSettings.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\ModSettings.cs",
               "RelativeToolTip": "ModSettings.cs",
-              "ViewState": "AQIAAPEAAAAAAAAAAAAwwAMBAAAAAAAA",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAQwBIBAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T21:34:41.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "HarmonyPatches.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\HarmonyPatches.cs",
               "RelativeDocumentMoniker": "HarmonyPatches.cs",
               "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\HarmonyPatches.cs",
               "RelativeToolTip": "HarmonyPatches.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAcwIQAAAAaAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T23:36:16.689Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 39,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\Class1.cs",
-              "RelativeDocumentMoniker": "Class1.cs",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\romance_tweaks_for_multiplayer\\Source\\RomanceTweaker\\Class1.cs",
-              "RelativeToolTip": "Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T21:20:06.777Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

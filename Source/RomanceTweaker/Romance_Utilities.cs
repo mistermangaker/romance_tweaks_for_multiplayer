@@ -36,11 +36,11 @@ namespace RomanceTweaker
             bool recipientOverThreshold = (recipient.relations.OpinionOf(initiator) >= RomanceMod.settings.alwayAttemptRomanceThreshold);
             bool initiatorOverThreshold = (initiator.relations.OpinionOf(recipient) >= RomanceMod.settings.alwayAttemptRomanceThreshold);
             bool CantBeCheating = RomanceMod.settings.alwayAttemptRomanceThresholdCantBeCheating;
-            if (recipientOverThreshold && initiatorOverThreshold)
+            if (mustBeMutual && recipientOverThreshold && initiatorOverThreshold)
             {
                 return CantBeCheating ? Romance_Utilities.IsThisRomanceAttemptCheating(initiator, recipient) : true;
             }
-            if (!mustBeMutual && recipientOverThreshold)
+            if (recipientOverThreshold)
             {
                 return CantBeCheating ? Romance_Utilities.IsThisRomanceAttemptCheating(initiator, recipient) : true;
             }

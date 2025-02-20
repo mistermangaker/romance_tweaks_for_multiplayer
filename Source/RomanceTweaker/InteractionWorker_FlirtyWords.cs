@@ -51,7 +51,12 @@ namespace RomanceTweaker
             {
                 return 0f;
             }
-            return Romance_Utilities.ResolveRomanceAttemptSettings(initiator, recipient) ? 10f : 0f;
+            int num2 = (int)(initiator.needs.mood?.thoughts?.memories.NumMemoriesOfDef(InternalDefof.MMM_FlirtingAttempt));
+            if (num2 >= 5)
+            {
+                return 0.5f;
+            }
+            return Romance_Utilities.ResolveRomanceAttemptSettings(initiator, recipient) ? 5f : 0f;
     
         }
 
@@ -59,7 +64,7 @@ namespace RomanceTweaker
         [SyncMethod]
         public static bool RomanceAttemptSuccess(Pawn initiator, Pawn recipient, float baseChance, out float endResult)
         {
-            Log.Message("STARTING CALCULATION");
+            //Log.Message("STARTING CALCULATION");
             
             endResult = baseChance;
             string text = "step1: "+ endResult.ToString();
@@ -106,7 +111,7 @@ namespace RomanceTweaker
             endResult = Mathf.Clamp01(endResult);
             
 
-            Log.Message(text);
+            //Log.Message(text);
             
             return (Rand.Value < endResult);
 
@@ -152,8 +157,8 @@ namespace RomanceTweaker
         [SyncMethod]
         public static bool GenerateFlirtThought(Pawn initiator, Pawn recipient)
         {
-            Log.Message("GenerateFlirtThought: " + Mathf.InverseLerp(-10f, 100f, recipient.relations.OpinionOf(initiator)));
-            return (Rand.Value < Mathf.InverseLerp(-10f, 100f, recipient.relations.OpinionOf(initiator)));
+            //Log.Message("GenerateFlirtThought: " + Mathf.InverseLerp(-10f, 100f, recipient.relations.OpinionOf(initiator)));
+            return (Rand.Value < Mathf.InverseLerp(5f, 100f, recipient.relations.OpinionOf(initiator)));
         }
 
 

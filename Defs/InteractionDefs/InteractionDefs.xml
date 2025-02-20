@@ -72,7 +72,7 @@
     <stages>
       <li>
         <label>flirted with</label>
-        <baseOpinionOffset>7</baseOpinionOffset>
+        <baseOpinionOffset>5</baseOpinionOffset>
       </li>
     </stages>
     <thoughtToMake>MMM_FlirtingAttemptMood</thoughtToMake>
@@ -109,7 +109,7 @@
     <stages>
       <li>
         <label>flirted with</label>
-        <baseOpinionOffset>5</baseOpinionOffset>
+        <baseOpinionOffset>2</baseOpinionOffset>
       </li>
     </stages>
     <thoughtToMake>MMM_FlirtingAttemptMood</thoughtToMake>

@@ -8,12 +8,12 @@
   </supportedVersions>
   <description> a rimworld mod that tweaks the romance chance factors for pawns. this supports rimworld multiplayer aswell</description>
   <modDependencies>
-    <li>
+    <!--<li>
       <packageId>rwmt.Multiplayer</packageId>
       <displayName>Multiplayer</displayName>
       <downloadUrl>https://github.com/rwmt/Multiplayer/releases</downloadUrl>
       <steamWorkshopUrl>steam://url/CommunityFilePage/1752864297</steamWorkshopUrl>
-    </li>
+    </li>-->
     <li>
       <packageId>brrainz.harmony</packageId>
       <displayName>Harmony</displayName>

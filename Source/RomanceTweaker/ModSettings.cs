@@ -228,7 +228,7 @@ namespace RomanceTweaker
 
     public class RomanceModSettings : ModSettings
     {
-        public bool EnableDebugglogging = true;
+        public bool EnableDebugglogging = false;
 
 
 

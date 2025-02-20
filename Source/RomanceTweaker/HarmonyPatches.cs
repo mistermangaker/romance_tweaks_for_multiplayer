@@ -43,7 +43,7 @@ namespace RomanceTweaker
                     if (recipient.relations.OpinionOf(initiator) < RomanceMod.settings.alwayAttemptRomanceThreshold || initiator.relations.OpinionOf(recipient) < RomanceMod.settings.alwayAttemptRomanceThreshold)
                     {
                       
-                        __result = 10f;
+                        __result = 5f;
                         return false;
                     }
                 }
@@ -53,7 +53,7 @@ namespace RomanceTweaker
                     if (recipient.relations.OpinionOf(initiator) < RomanceMod.settings.alwayAttemptRomanceThreshold && initiator.relations.OpinionOf(recipient) < RomanceMod.settings.alwayAttemptRomanceThreshold)
                     {
                         
-                        __result = 10f;
+                        __result = 5f;
                     return false;
                     }
                 }
